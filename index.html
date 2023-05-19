@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Projeto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    
+    
+
+</head>
+<body>
+    <form method="post" action="cadastro.php"class="main b7validator">
+        <div class="container">
+            <div class="col">
+                <div class="center">
+                    <div class="cent">
+                        <h1>Criar Conta</h1>                
+                    </div>
+                    <div class="cent">
+                        <p>Já tem uma conta? Faça <a href="#">login</a></p>
+                    </div>
+                    <div class="">
+                        <div class="row">
+                            <div class="cent">
+                                <input 
+                                id="direito" 
+                                name="Nome" 
+                                placeholder="Nome" 
+                                data-rules="required"
+                                ></input>
+                            </div>
+                            <div class="cent">
+                                <input 
+                                id="esquerdo" 
+                                name="Sobrenome" 
+                                placeholder="Sobrenome"></input>
+                            </div>
+                        </div>
+                        <div class="cent">
+                            <input 
+                            placeholder="Email" 
+                            name="Email" 
+                            type="email"></input>
+                        </div>
+                        <div class="cent">
+                            <input 
+                            placeholder="Senha" 
+                            name="Senha" 
+                            type="password"></input>
+                        </div>
+                    </div>
+                    <div class="cent" >
+                        <button 
+                        value="cadastrar" 
+                        type="submit"> CRIAR CONTA </button>
+                    </div>    
+                    <div class="">
+                        <div class="check">
+                            <input 
+                            type="checkbox">
+                            <span> Eu li e aceito os<a href="#"> Termos De Contrato.</span></a></input>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </form>
+    <script src='script.js'></script>
+</body>
+</html>
